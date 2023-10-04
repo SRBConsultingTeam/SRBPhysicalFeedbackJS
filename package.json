@@ -1,0 +1,45 @@
+{
+  "name": "srbphysicalfeedbackjs",
+  "version": "1.0.0",
+  "description": "A JS library for providing physical feedback in javascript web apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/SRBPhysicalFeedback.js",
+    "pretty": "npx prettier --write .",
+    "build": "uglifyjs src/SRBPhysicalFeedback.js --compress --mangle --output src/SRBPhysicalFeedback.min.js",
+    "build-jsdoc": "jsdoc2md src/SRBPhysicalFeedback.js > SRBPhysicalFeedback_JSDOC.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SRBConsultingTeam/SRBPhysicalFeedbackJS.git"
+  },
+  "keywords": [
+    "UI5",
+    "SRB",
+    "openui5",
+    "javascript",
+    "js",
+    "vibrate",
+    "sound",
+    "sap",
+    "audio",
+    "beep"
+  ],
+  "author": "Michael Henninger - SRB Consulting Team GmbH <m.henninger@srb.at> (https://www.srb.at/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SRBConsultingTeam/SRBPhysicalFeedbackJS/issues"
+  },
+  "homepage": "https://github.com/SRBConsultingTeam/SRBPhysicalFeedbackJS#readme",
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "jsdoc-to-markdown": "^8.0.0",
+    "json-loader": "^0.5.7",
+    "prettier": "2.2.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "uglify-js": "^3.17.4"
+  }
+}
