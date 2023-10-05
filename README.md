@@ -81,3 +81,20 @@ document.head.appendChild(script);
 ## Documentation
 
 > The documentation on this page is just an overview of the most relevant functions and features. Consider reading the [JSDoc page!](./SRBPhysicalFeedback_JSDOC.md)
+
+## Supported devices
+
+|  #  |          Device          |     OS     | Browser    |  Sound supported   | Vibration supported |
+| :-: | :----------------------: | :--------: | ---------- | :----------------: | :-----------------: |
+|  1  | Samsung Galaxy S22 ultra | Android 13 | Chrome 117 | :white_check_mark: | :white_check_mark:  |
+|  2  |     Apple iPhone 13      | iOS 16.6.1 | Chrome 117 | :white_check_mark: |         :x:         |
+|  3  |    Samsung Galaxy S8     | Android 9  | Chrome 117 | :white_check_mark: |         :x:         |
+|  4  |       Zebra MC220K       | Android 9  | Chrome 117 | :white_check_mark: |         :x:         |
+
+Please also note your device details if you tested it, and [create an issue](https://github.com/SRBConsultingTeam/SRBPhysicalFeedbackJS/issues/new?title%3DPlease%20add%20my%20device%20to%20the%20supported%20devices%20list%26body%3D**Device%3A**%20%60Device%20name%60%20**OS%3A**%20%60Operating%20system%60%20**Browser%3A**%20%60Browser%20and%20version%60%20**Sound%20supported%3A**%20%60yes%2Fno%60%20**Vibration%20supported%3A**%20%60yes%2Fno%60) with the information from the table above!
+
+**Device:** `Device name`
+**OS:** `Operating system`
+**Browser:** `Browser and version`
+**Sound supported:** `yes/no`
+**Vibration supported:** `yes/no`
