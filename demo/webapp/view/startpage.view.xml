@@ -2,28 +2,32 @@
 	xmlns:core="sap.ui.core" xmlns="sap.m">
   <Page id="startpage" showHeader="false">
     <VBox>
-      <Button text="SRBPhysicalFeedback.soundFeedback('A')" press ="SRBPhysicalFeedback.soundFeedback('A')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('B')" press ="SRBPhysicalFeedback.soundFeedback('B')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('C')" press ="SRBPhysicalFeedback.soundFeedback('C')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('D')" press ="SRBPhysicalFeedback.soundFeedback('D')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('E')" press ="SRBPhysicalFeedback.soundFeedback('E')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('F')" press ="SRBPhysicalFeedback.soundFeedback('F')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('G')" press ="SRBPhysicalFeedback.soundFeedback('G')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('H')" press ="SRBPhysicalFeedback.soundFeedback('H')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('I')" press ="SRBPhysicalFeedback.soundFeedback('I')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('J')" press ="SRBPhysicalFeedback.soundFeedback('J')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('K')" press ="SRBPhysicalFeedback.soundFeedback('K')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('L')" press ="SRBPhysicalFeedback.soundFeedback('L')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('M')" press ="SRBPhysicalFeedback.soundFeedback('M')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('N')" press ="SRBPhysicalFeedback.soundFeedback('N')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('O')" press ="SRBPhysicalFeedback.soundFeedback('O')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('P')" press ="SRBPhysicalFeedback.soundFeedback('P')"></Button>
-      <Button text="SRBPhysicalFeedback.soundFeedback('Q')" press ="SRBPhysicalFeedback.soundFeedback('Q')"></Button>
-      <Button text="SRBPhysicalFeedback.vibrationFeedback('A')" press ="SRBPhysicalFeedback.vibrationFeedback('A')"></Button>
-      <Button text="SRBPhysicalFeedback.vibrationFeedback('B')" press ="SRBPhysicalFeedback.vibrationFeedback('B')"></Button>
-      <Button text="SRBPhysicalFeedback.vibrationFeedback('C')" press ="SRBPhysicalFeedback.vibrationFeedback('C')"></Button>
-      <Button text="SRBPhysicalFeedback.vibrationFeedback('D')" press ="SRBPhysicalFeedback.vibrationFeedback('D')"></Button>
-      <Button text="SRBPhysicalFeedback.vibrationFeedback('E')" press ="SRBPhysicalFeedback.vibrationFeedback('E')"></Button>
+      <Panel headerText="Sound feedback">
+        <Button text="SRBPhysicalFeedback.soundFeedback('A')" press ="SRBPhysicalFeedback.soundFeedback('A')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('B')" press ="SRBPhysicalFeedback.soundFeedback('B')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('C')" press ="SRBPhysicalFeedback.soundFeedback('C')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('D')" press ="SRBPhysicalFeedback.soundFeedback('D')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('E')" press ="SRBPhysicalFeedback.soundFeedback('E')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('F')" press ="SRBPhysicalFeedback.soundFeedback('F')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('G')" press ="SRBPhysicalFeedback.soundFeedback('G')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('H')" press ="SRBPhysicalFeedback.soundFeedback('H')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('I')" press ="SRBPhysicalFeedback.soundFeedback('I')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('J')" press ="SRBPhysicalFeedback.soundFeedback('J')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('K')" press ="SRBPhysicalFeedback.soundFeedback('K')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('L')" press ="SRBPhysicalFeedback.soundFeedback('L')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('M')" press ="SRBPhysicalFeedback.soundFeedback('M')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('N')" press ="SRBPhysicalFeedback.soundFeedback('N')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('O')" press ="SRBPhysicalFeedback.soundFeedback('O')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('P')" press ="SRBPhysicalFeedback.soundFeedback('P')"></Button>
+        <Button text="SRBPhysicalFeedback.soundFeedback('Q')" press ="SRBPhysicalFeedback.soundFeedback('Q')"></Button>
+      </Panel>
+      <Panel headerText="Vibration feedback">
+        <Button text="SRBPhysicalFeedback.vibrationFeedback('A')" press ="SRBPhysicalFeedback.vibrationFeedback('A')"></Button>
+        <Button text="SRBPhysicalFeedback.vibrationFeedback('B')" press ="SRBPhysicalFeedback.vibrationFeedback('B')"></Button>
+        <Button text="SRBPhysicalFeedback.vibrationFeedback('C')" press ="SRBPhysicalFeedback.vibrationFeedback('C')"></Button>
+        <Button text="SRBPhysicalFeedback.vibrationFeedback('D')" press ="SRBPhysicalFeedback.vibrationFeedback('D')"></Button>
+        <Button text="SRBPhysicalFeedback.vibrationFeedback('E')" press ="SRBPhysicalFeedback.vibrationFeedback('E')"></Button>
+      </Panel>
     </VBox>
   </Page>
 </mvc:View>
