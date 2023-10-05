@@ -25,6 +25,13 @@ In pure web applications, haptic/physical feedback is rarely used. That's why we
 - Check if your browser supports vibrating a compatible device: https://caniuse.com/vibration
 - Check if your browser supports playing audio via JavaScript: https://caniuse.com/audio
 
+# [Demo](https://srbconsultingteam.github.io/SRBPhysicalFeedbackJS/demo/webapp/index.html)
+
+If you check out this project, there is a "demo" app to see how the library works. Simply clone the repo and run `npm run test` in the demo folder ( `npm install` required to install all necessary packages ).
+
+You can also use this link to see a working example:
+https://srbconsultingteam.github.io/SRBPhysicalFeedbackJS/demo/webapp/index.html
+
 ## Getting started
 
 **Initialize the SRBPhysicalFeedbackJS via the NPM CDN:**
